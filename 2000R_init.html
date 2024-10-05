@@ -1,0 +1,334 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 9,
+        "fields": {
+            "year": 2000,
+            "summary": "<p>Trump is running for president, breaking headlines and capturing the attention of the nation. His popularity has surged to record levels, creating a unique and unpredictable atmosphere in this election. As Trump dominates the conversation, the race becomes increasingly chaotic. Traditional candidates like Bush and Clinton are left bewildered, unsure of how to counter his unconventional style and growing influence. The political landscape has been turned upside down, leaving many to wonder whether this is just a temporary phenomenon or the start of a serious campaign with a path to the White House.</p>",
+            "image_url": "https://i.guim.co.uk/img/media/cc34c6a718355ca3655179d83b62b01f467bd628/0_62_2810_1686/master/2810.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=ed10c51ac545fd82a5150c7d3920bf49",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/rove-brazile.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">The Florida Recount / 2000 Election</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000RH0DVM/amhius20-20\" target=”_blank”>Jeffrey Toobin - Too Close to Call: The Thirty-Six-Day Battle to Decide the 2000 Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMLDHFI/amhius20-20\" target=”_blank”>Andrew E. Busch & James W. Ceaser - The Perfect Tie: The True Story of the 2000 Presidential Election</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/032110028X/amhius20-20\" target=”_blank”>Larry Sabato - Overtime! The Election 2000 Thriller</a><h4>Books by the Candidates</h4><a href=\"http://www.amazon.com/exec/obidos/ASIN/B000C4SV2I/amhius20-20\" target=”_blank”>George W. Bush - A Charge to Keep: My Journey to the White House</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/0452269350/amhius20-20\" target=”_blank”>Al Gore - Earth in the Balance</a></br><a href=\"http://www.amazon.com/exec/obidos/ASIN/B003YFIYWY/amhius20-20\" target=”_blank”>The Ralph Nader Reader</a><h4>Links</h4><a href=\"http://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=2&psid=3377\" target=”_blank”>Digital History - The Disputed Election of 2000</a></br><a href=\"http://www.pbs.org/wnet/supremecourt/future/landmark_bush.html\" target=”_blank”><em>Bush v. Gore</em></a></br><a href=\"http://www.vanityfair.com/news/2004/10/florida-election-2000\" target=”_blank”>The Path to Florida</a></br><a href=\"http://www.historyplace.com/speeches/gore-concedes.htm\" target=”_blank”>Al Gore Concedes the 2000 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2000"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 77,
+        "fields": {
+            "first_name": "Donald",
+            "last_name": "Trump",
+            "election": 9,
+            "party": "Reform",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Donald Trump entered the 2000 election with the advantage of being a well-known businessman and media personality. Having built a reputation as a successful real estate mogul, Trump’s message is one of shaking up the political system and bringing a business approach to Washington. He promises to run as an outsider, unafraid to challenge the political establishment and 'drain the swamp,' appealing to voters tired of politics as usual.</p><p>Trump’s candidacy brings excitement and controversy in equal measure. While his boldness and name recognition attract media attention and energize a wide base of supporters, many question whether his lack of political experience will be a drawback on the national stage. Can Trump convince voters that his brash style and business acumen are what the country needs to break free from the gridlock of the Clinton years and move toward a new era of leadership?\"</p>",
+            "color_hex": "#ff00d0",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/xfISWsF.png",
+            "electoral_victory_message": "<h3>yay you won anticlimactic...</p>",
+            "electoral_loss_message": "<h3>i am sorry you lost</p>",
+            "no_electoral_majority_message": "<h3>bad for everyone</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 78,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Gore",
+            "election": 9,
+            "party": "Democrat",
+            "state": "Tennessee",
+            "priority": 2,
+            "description": "<p>Al Gore enters the 2000 election as the Democratic candidate after eight years as Vice President under Bill Clinton.</p><p>Gore has a lot of options in his campaign. He can embrace the legacy of Clinton, for better or worse. Politically, he can run as a centrist, or move to the left and run as a more traditional liberal Democrat than Clinton did. The presence of the well-known Ralph Nader as a Green Party candidate complicates this decision. Gore is essentially campaigning on two fronts.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/al-gore-2000.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>Though it was perhaps expected, you could have easily faltered at a number of points. Credit to you for pulling through.</p><p>On the political front, you can continue the Clinton legacy and strengthen Social Security for generations to come. Perhaps you can succeed on health care where Clinton came up short? Or maybe you can create a future of renewable energy for America. Just be wary of a (George or Jeb?) Bush challenge in 2004.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2000 election.</h3><p>Surely the second-guessing will be intense, but if things were close you could probably run again in 2004.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner. A lot should depend on the margin of his victory, and whether it was large or small.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, for the first time since 1824. Unfortunately for you, a majority of states have Republican controlled congressional delegations.</p><p>It seems that with George W. Bush and a Republican majority, the United States can expect some conservative policy-making over the next four years. Hopefully Bush comes through on his promise to govern in a bipartisan, conciliatory manner.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 79,
+        "fields": {
+            "first_name": "Ralph",
+            "last_name": "Nader",
+            "election": 9,
+            "party": "Green",
+            "state": "Connecticut",
+            "priority": 3,
+            "description": "<p>Ralph Nader enters the 2000 election as the Green candidate after years as an activist and consumer advocate.</p><p>After eight years of Bill Clinton, it is clear that the United States needs a true liberal alternative -- one that will fight for fair trade, universal health care, free college, and campaign finance reform. Nader's primary goal in this election is to win 5% of the popular vote, which will qualify the Green Party for federal matching funds in 2004.</p>",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/ralph-nader-2000.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2000 election.</h3><p>This was definitely not supposed to happen. Good luck!</p>",
+            "electoral_loss_message": "<h3>As expected, you have lost the 2000 election.</h3><p>The legacy of this campaign depends on a couple of factors. First of all, did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate received 270 electoral votes, but the House will elect George W. Bush as President.</h3><p>Did you receive 5% of the popular vote? If so, congratulations! You will enable the Green Party to run a vigorous campaign in 2004 and present a true choice to the American people. Also, the Democrats were a little peeved that you \"stole\" votes from them in this election. Hopefully that doesn't lead to a backlash, especially since they will lose the vote in the House.</p>",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 80,
+        "fields": {
+            "first_name": "George W.",
+            "last_name": "Bush",
+            "election": 9,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 4,
+            "description": "''",
+            "color_hex": "#ec1f09",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://media.newyorker.com/photos/59097333ebe912338a37756e/master/pass/Cassidy-What-sort-of-man-is-Donald-Trump.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "''",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 81,
+        "fields": {
+            "first_name": "Jesse",
+            "last_name": "Ventura",
+            "election": 9,
+            "party": "Reform",
+            "state": "Minnesota",
+            "priority": 5,
+            "description": "''",
+            "color_hex": "#ff00bb",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Jesse_Ventura_1996.jpg/1200px-Jesse_Ventura_1996.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>After an astounding upset victory in the 1998 Minnesota gubernatorial election, Jesse Ventura is the strongest member of the Reform Party, playing a crucial role in convincing Donald Trump to run for president in 2000. With his influence and leadership within the party, he recognized Trump’s potential to shake up the political landscape and appeal to voters disillusioned with the two-party system. His persistent efforts to bring Trump into the race helped position the businessman as a serious contender, believing that Trump’s outsider status and bold approach could resonate with the growing desire for change in the country.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 82,
+        "fields": {
+            "first_name": "Steve ",
+            "last_name": "Forbes",
+            "election": 9,
+            "party": "Republican",
+            "state": "New Jersey",
+            "priority": 6,
+            "description": "''",
+            "color_hex": "#ff00d0",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.purdue.edu/uns/images/+2005/forbes-steve.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>In a stable and growing Reform Party, Donald Trump’s selection of Steve Forbes as his running mate in the 2000 election solidifies the ticket's focus on economic reform and conservative values. Forbes, a well-known businessman, publisher, and two-time Republican presidential candidate, is recognized for his strong advocacy of a flat tax system and free-market principles. His vision for simplifying the tax code and reducing government intervention in the economy aligns with Trump’s own business-minded approach to revitalizing the nation’s financial system.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 83,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Lamn",
+            "election": 9,
+            "party": "Reform",
+            "state": "Colorado",
+            "priority": 7,
+            "description": "''",
+            "color_hex": "#ff00ea",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Richard_Lamm.jpg/220px-Richard_Lamm.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>With the Reform Party stable and poised to challenge the traditional two-party system, Donald Trump’s choice of Richard Lamm as his running mate in the 2000 election adds depth and experience to the ticket. Lamm, a three-term Governor of Colorado, is known for his pragmatic and sometimes controversial stances on healthcare, immigration, and fiscal discipline. His long-standing commitment to reform resonates with the party’s core values of fiscal responsibility, government accountability, and addressing key social issues.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 84,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Hagelin",
+            "election": 9,
+            "party": "Reform",
+            "state": "Pennsylvania",
+            "priority": 8,
+            "description": "''",
+            "color_hex": "#ee00ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/John_S._Hagelin.jpg",
+            "electoral_victory_message": "''",
+            "electoral_loss_message": "''",
+            "no_electoral_majority_message": "''",
+            "description_as_running_mate": "<p>As the Reform Party faces internal divisions and uncertainty, Donald Trump’s decision to select John Hagelin as his running mate represents an effort to unify the party and bring stability to a chaotic election cycle. Hagelin, a renowned physicist and presidential candidate for the Natural Law Party in previous elections, brings a unique blend of intellectual credibility and political outsider status to the ticket. Known for his advocacy of education, scientific research, and alternative approaches to governance, Hagelin aligns with Trump’s vision of challenging the political establishment.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 49,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 82
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 50,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 83
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 51,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 84
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 118189,
+        "fields": {
+            "candidate": 77,
+            "running_mate": 81
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Dan Bryan"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 9,
+        "candidates": [
+            77,
+            78,
+            79,
+            80
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 9,
+        "year": 2000,
+        "is_premium": 0,
+        "display_year": "2000: Fire the Establishment"
+    }
+]
+
+jet_data = {
+    "headerColor": "#8f287c",
+    "windowColor": "#cb0b0b",
+    "containerColor": "#3b3b3b",
+    "innerWindowColor": "#333333",
+    "bannerImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Trump_2000.svg",
+    "backgroundImageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQTuz74BSGuYMkQvsUJiMNc8baqADSPOvGJgRjlMAn3YAUzZQLMhywi7EH0QjKhY072rAY2i3rLV0NkdRGh2b75488KzvPlB68BZNJUQOLvob6WDyfkfY3B&usqp=CAc",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#8f287c";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#cb0b0b";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#3b3b3b";
+
+document.getElementById("header").src = "https://upload.wikimedia.org/wikipedia/commons/2/2d/Trump_2000.svg";
+
+document.body.background = "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQTuz74BSGuYMkQvsUJiMNc8baqADSPOvGJgRjlMAn3YAUzZQLMhywi7EH0QjKhY072rAY2i3rLV0NkdRGh2b75488KzvPlB68BZNJUQOLvob6WDyfkfY3B&usqp=CAc";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#333333!important;}</style>";
+
+//#endcode
+
